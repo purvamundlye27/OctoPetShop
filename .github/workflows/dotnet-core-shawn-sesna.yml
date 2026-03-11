@@ -10,9 +10,8 @@ permissions:
 
 env:
   OCTOPUS_SPACE: "Shawn Sesna"
-  OCTOPUS_API_KEY: ${{ secrets.OCTOPUSSERVERAPIKEY  }}
-  OCTOPUS_URL: ${{ secrets.OCTOPUSSERVERURL }}
-
+  OCTOPUS_API_KEY: ${{ secrets.SHAWN_SESNA_API_KEY  }}
+  OCTOPUS_URL: "https://demo.octopus.app"
 jobs:
   build:
     runs-on: ubuntu-latest
