@@ -1,4 +1,4 @@
-version: '7'
+version: '2'
 services:
   sql-server:
     container_name: sql-server-db
@@ -18,7 +18,7 @@ services:
       - '5011:5011'
       - '5014:5014'
     depends_on: 
-      - "databasedatabase"
+      - "database"
   octopetshop:
     environment:
       - ProductServiceBaseUrl=http://productservice:5011/
